@@ -28,6 +28,23 @@ namespace _17July
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("After removing" + stack.Pop());
+            Console.WriteLine("After removing "+ stack.Pop());
+            Console.WriteLine("Number of Items in stack are: \t"+stack.Count);
+            foreach (var item in stack)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("Peek Example: \t"+stack.Peek());
+            Console.WriteLine("After Peek");
+            Console.WriteLine("Number of Items in stack are: \t"+stack.Count);
+            foreach (var item in stack)
+            {
+                Console.WriteLine(item);
+            }
+            stack.Clear();
+            Console.WriteLine("After Clear Number of Items are: \t"+stack.Count);
+
             Console.ReadKey();
         }
         
